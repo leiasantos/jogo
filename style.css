@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	border:none;
+}
+
+body{
+	height: 100vh;
+	background: #F1E9E7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*BOTÕES*/
+
+button{
+	width: 315px;
+	height: 100px;
+	border-radius: 24px;
+	color: #F1E9E7;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.btn__iniciar{
+	background: #3B3486;
+	
+}
+.giveup{
+   background: #6F38C5;
+  
+}
+
+.new__player{
+   background: #8758FF;
+}
+ .letras{
+	width: 100px;
+	height: 50px;
+	background: #16213E;
+	border-radius: 20px;
+	margin: 5px;
+}
+
+.btn button{
+
+    margin-left: 5px;
+}
+/* TEnCLADO*/
+
+#keyboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+	
+}
